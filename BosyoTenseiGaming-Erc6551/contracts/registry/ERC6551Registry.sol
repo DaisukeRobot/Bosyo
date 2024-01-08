@@ -4,7 +4,9 @@ pragma solidity ^0.8.0;
 import "./lib/Create2.sol";
 
 import "./interface/IERC6551Registry.sol";
-
+/**
+ * @title ERC-6551Registry impl
+ */
 contract SampleAccountRegistry is IERC6551Registry {
     error InitializationFailed();  
 /* 
